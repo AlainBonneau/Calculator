@@ -1,3 +1,5 @@
+
+
 #calculator {
     font-family: Arial, sans-serif;
     background-color: hsl(0, 0%, 15%);
@@ -13,6 +15,7 @@
     text-align: left;
     border: none;
     background-color: hsl(0, 0%, 15%);
+    color: white;
 }
 
 #keys {
