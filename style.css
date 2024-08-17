@@ -12,7 +12,7 @@ body {
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
     max-width: 500px;
-    height: 100vh; /* C'est de moi à enlever si bug */
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -22,6 +22,7 @@ body {
     font-size: 5rem;
     text-align: left;
     border: none;
+    border-bottom: 2px solid hsl(0, 0%, 35%);;
     background-color: hsl(0, 0%, 20%);
     color: white;
 }
