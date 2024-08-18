@@ -15,7 +15,7 @@ body {
     border-radius: 15px;
     max-width: 500px;
     width: auto;
-    height: 100vh;
+    /* height: 100vh; */
     overflow: hidden;
 }
 
