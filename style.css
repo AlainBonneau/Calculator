@@ -1,4 +1,5 @@
 body {
+    box-sizing: border-box;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -13,6 +14,7 @@ body {
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
     max-width: 500px;
+    width: auto;
     height: 100vh;
     overflow: hidden;
 }
@@ -65,4 +67,10 @@ button:active {
 
 .operator-btn:active {
     background-color: hsl(35, 100%, 75%);
+}
+
+@media (max-width: 520px) {
+    #keys {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
